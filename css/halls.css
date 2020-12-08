@@ -197,14 +197,27 @@ footer {
         overflow-x: hidden;
         flex-direction: column;
     }
-    #card-itens {
-        width: 249px;
-        height: 100px;
-        display: flex;
-        direction: column;
-        flex-wrap: wrap;
+    #compras{
+        width: 100%;
+        max-width: 600px;
+    } 
+    #card-itens{
         background-color: #0b152f;
+        width: 100%;
+        max-width: 600px;
+        height: 100%;
+        display: flex;
+        direction: row;
+        flex-wrap: wrap; 
         border-radius: 17px;
+        box-shadow: #0b152f 0px 0px 0.2rem,#0b152f 0px 0px 0.2rem;
+    }
+    .img-itens{
+        margin: 0 auto;
+        width: 40%;
+        max-width: 600px;
+        float: left;
+        position: relative;
     }
     #profile-itens {
         display: flex;
